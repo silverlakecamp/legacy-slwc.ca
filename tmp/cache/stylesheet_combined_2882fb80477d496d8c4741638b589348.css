@@ -1,0 +1,56 @@
+@charset "utf-8";
+ 
+body {
+	color: #000 !important;
+	background-color: #fff !important;
+	font-family: Arial;
+	border: 0 !important;
+}
+* {
+	border: 0 !important;
+	text-align: left !important;
+}
+.accessibility, 
+.noprint {
+	display: none !important;
+}
+.wrapper,
+.col-sm-4,
+.col-sm-3,
+.col-sm-6,
+.col-sm-8,
+.col-sm-12,
+.col-xs-3,
+.col-xs-9 {
+	display: block !important;
+	width: 100% !important;
+	border: 0 !important;
+	padding: 1em !important;
+}
+nav,
+.parallax_block,
+.customNavigation,
+.parent-container,
+.mobile-navigation,
+.search-input,
+.search-wrapper,
+.sliderWrapper,
+.featureIcon,
+.totoplink,
+[class^="fa-"],
+[class*=" fa-"],
+[class^="social-icon "],
+[class*=" social-icon"]
+ {
+	display: none !important;
+}
+img {
+	float: none !important;
+}
+a:link:after {
+    content: " (" attr(href) ") ";
+}
+a {
+    text-decoration: underline;
+}
+/* Stylesheet: SLWC // Print Modified On 2015-01-05 18:53:55 */
