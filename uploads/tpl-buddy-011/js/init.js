@@ -5,25 +5,25 @@
 
 $(document).ready(function() {
 
-    /* 
-     * Dropdown menu based on Superfish 1.4.8 – jQuery menu plugin 
-     * http://users.tpg.com.au/j_birch/plugins/superfish/
+    /*
+     * Dropdown menu based on Superfish 1.4.8 – jQuery menu plugin
+     * https://users.tpg.com.au/j_birch/plugins/superfish/
     -------------------------------------------------------- */
-    $('ul.sf-menu').superfish({ 
-            delay:       1000,                            // one second delay on mouseout 
-            animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation 
-            speed:       'fast'                         // faster animation speed 
+    $('ul.sf-menu').superfish({
+            delay:       1000,                            // one second delay on mouseout
+            animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
+            speed:       'fast'                         // faster animation speed
         });
-   
 
-    /*  
+
+    /*
      * Image/Content Slider initialization based on
      * jQuery FlexSlider v2.2.0
-     * http://www.woothemes.com/flexslider/
+     * https://www.woothemes.com/flexslider/
      *
      * Copyright 2012 WooThemes
      * Free to use under the GPLv2 license.
-     * http://www.gnu.org/licenses/gpl-2.0.html
+     * https://www.gnu.org/licenses/gpl-2.0.html
      *
      * Contributing author: Tyler Smith (@mbmufffin)
     -------------------------------------------------------- */
@@ -38,7 +38,7 @@ $(document).ready(function() {
         });
 
 
-    /*  
+    /*
      * Smooth scroll for anchor links
     ---------------------------------------------------- */
     var scroll_timer;
@@ -46,7 +46,7 @@ $(document).ready(function() {
         var $totoplink = $('.totoplink a');
         var $window = $(window);
         var top = $(document.body).children(0).position().top;
-    
+
         /* react to scroll event on window */
         $window.scroll(function () {
             window.clearTimeout(scroll_timer);
@@ -67,8 +67,8 @@ $(document).ready(function() {
 
         /*
          * Magnific Popup - v0.9.9 - 2014-09-06
-         * http://dimsemenov.com/plugins/magnific-popup/
-         * Copyright (c) 2014 Dmitry Semenov; 
+         * https://dimsemenov.com/plugins/magnific-popup/
+         * Copyright (c) 2014 Dmitry Semenov;
         ---------------------------------------------------- */
         $('.parent-container').magnificPopup({
             delegate: 'a', // child items selector, by clicking on it popup will open
@@ -93,11 +93,11 @@ $(document).ready(function() {
         *  jQuery OwlCarousel v1.3.3
         *
         *  Copyright (c) 2013 Bartosz Wojciechowski
-        *  http://www.owlgraphic.com/owlcarousel/
+        *  https://www.owlgraphic.com/owlcarousel/
         *
         *  Licensed under MIT
         ---------------------------------------------------- */
-        var owl = $("#owl-example"); 
+        var owl = $("#owl-example");
 
         $("#owl-example").owlCarousel({
             items : 3,
@@ -115,7 +115,7 @@ $(document).ready(function() {
 
 
         /*
-         * Search 
+         * Search
         ---------------------------------------------------- */
         $('.search-trigger').click(function(e) {
             e.preventDefault();
@@ -127,9 +127,9 @@ $(document).ready(function() {
         });
 
 
-        /* 
+        /*
          * Menu for Mobile
-        ---------------------------------------------------- */ 
+        ---------------------------------------------------- */
         $('.mobile-nav-trigger').click(function(e) {
             e.preventDefault();
             $('body').removeClass('show-search');
@@ -147,10 +147,10 @@ $(document).ready(function() {
 }); /*end doc ready */
 
 /*
- * Stellar.js v0.6.2 
- * Copyright 2014, Mark Dalgleish 
- * http://markdalgleish.com/projects/stellar.js 
- * http://markdalgleish.mit-license.org
+ * Stellar.js v0.6.2
+ * Copyright 2014, Mark Dalgleish
+ * https://markdalgleish.com/projects/stellar.js
+ * https://markdalgleish.mit-license.org
 -------------------------------------------------------- */
     $(window).stellar({
         horizontalScrolling: false,
